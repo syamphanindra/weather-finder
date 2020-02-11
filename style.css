@@ -1,0 +1,114 @@
+body {
+	/* background-image: url('https://giphy.com/gifs/KV1s4kSJHaY3m/html5');
+   */
+	/* background: #5CDB95; */
+	/* background-image: url('http://getwallpapers.com/wallpaper/full/6/a/c/924597-sunny-day-background-1920x1200-image.jpg'); */
+	background-image: url('sunny_day.jpg');
+	font-size: 25px;
+	width: 100%;
+	height: 100%;
+}
+
+#search_box {
+	text-align: center;
+}
+
+#search_box:hover {
+	border-color: #000;
+}
+
+#search_box::placeholder {
+	color: black;
+	padding-left: 10px;
+	opacity: 0.6;
+}
+
+.container {
+	width: 1000px;
+	height: 200px;
+	margin-left: 20%;
+	margin-top: 5%;
+}
+
+#search_box {
+	width: 600px;
+	height: 30px;
+	margin-left: 180px;
+	margin-top: 20px;
+	text-align: left;
+	font-size: 20px;
+	background: transparent;
+	/* border-radius: 13px; */
+	/* border: 1.5px solid #cfd7df; */
+	border: 1.5px solid #05386B;
+	outline: none;
+}
+
+#search_button {
+	width: 68px;
+	height: 32px;
+	margin-left: 15px;
+	border-radius: 18px;
+	font-size: 17px;
+	font-weight: bolder;
+	outline: none;
+	border-color: #05386B;
+	background-color: #8EE4AF;
+}
+
+#search_button:hover {
+	background-color: #8EE4FF;
+	cursor: pointer;
+}
+
+#heading-text {
+	/* padding-left: 15px; */
+	text-align: center;
+	color: #EDF5E1;
+	/* background-color: red; */
+}
+
+#autocomplete-list {
+	background: rgb(255, 255, 255);
+	width: 600px;
+	margin-left: 182px;
+	font-size: 20px;
+	border-color: grey;
+	border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 7px;
+	background: #ffffff;
+	border: 1px #05386B solid;
+	opacity: 0.5;
+}
+
+.autocomplete-item {
+	padding-bottom: 5px;
+	padding-left: 20px;
+}
+
+.weather-container {
+	width: 800px;
+	height: 200px;
+	margin-left: 25%;
+	margin-top: 1%;
+	/* border-style: double; */
+	/* border-color: black; */
+	border-radius: 10px;
+	border: 1px #8EE4AF solid;
+	vertical-align: middle;
+	background: #8EE4AF;
+}
+
+#weather-content p {
+	font-size: 25px;
+	color: black;
+	text-align: left;
+	color: #05386B;
+	margin-left: 25px;
+	margin-top: 30px;
+}
+
+.autocomplete-item:hover {
+	background-color: #8EE4AF;
+	cursor: pointer;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+   <header>
+      <link rel="stylesheet" href="style.css"/>
+      <title>
+         Search Weather
+      </title>
+      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+      <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=api_key&libraries=places"></script>
+      <script type="text/javascript" src="index1.js"> </script>
+   </header>
+   <body>
+      <div class="container">
+         <div id="heading-text">
+            <h1> Weather Finder </h1>
+         </div>
+         <input type="text" id="search_box" data-placeid='1' placeholder="Search Location" />
+         <button id="search_button" type="submit">Go</button>
+         <div id="autocomplete-list" class="autocomplete-items">
+         </div>
+      </div>
+      <div class="weather-container">
+         <div id="weather-content">
+            <p id="condition">Weather: </p>
+            <p id="temp">Temparature: </p>
+            <p id="time">Time:</p>
+         </div>
+      </div>
+   </body>
+   <script src="index.js"></script>
+</html>
